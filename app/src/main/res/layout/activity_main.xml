@@ -13,6 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,17 +28,16 @@
     tools:context="com.example.android.miwok.MainActivity">
 
     <TextView
-        android:id="@+id/vyanjan"
-        style="@style/CategoryStyle"
-        android:background="@color/category_vyanjan"
-        android:text="Vyanjan" />
-
-
-    <TextView
         android:id="@+id/swar"
         style="@style/CategoryStyle"
         android:background="@color/category_swar"
         android:text="Swar" />
+
+    <TextView
+        android:id="@+id/vyanjan"
+        style="@style/CategoryStyle"
+        android:background="@color/category_vyanjan"
+        android:text="Vyanjan" />
 
 
     <TextView
@@ -60,6 +65,17 @@
         android:background="@color/category_phrases"
         android:text="@string/category_phrases" />
 
+    <TextView
+        android:id="@+id/fruits"
+        style="@style/CategoryStyle"
+        android:background="@color/category_fruits"
+        android:text="Fruits" />
 
+    <TextView
+        android:id="@+id/flowers"
+        style="@style/CategoryStyle"
+        android:background="@color/category_flowers"
+        android:text="Flowers" />
 
 </LinearLayout>
+</ScrollView>
